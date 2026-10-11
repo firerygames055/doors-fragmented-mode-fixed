@@ -215,9 +215,9 @@ pcall(function()
     local Ents = game.ReplicatedStorage:WaitForChild("Entities")
     Ents.Screech.Top.Eyes.Color = Color3.fromRGB(255, 255, 0)
     local Mods = init.Main_Game.RemoteListener.Modules
-    Mods.Screech.Caught.SoundId = "rbxassetid://7492033495"
-    Mods.Screech.Caught.PlaybackSpeed = 1.6
-    Mods.Screech.Attack.SoundId = "rbxassetid://8080941676"
+    Mods.Screech.Caught.SoundId = "rbxassetid://17642270436"
+    Mods.Screech.Caught.PlaybackSpeed = 1
+    Mods.Screech.Attack.SoundId = "rbxassetid://75725601034313"
     Mods.HideMonster.Scare.SoundId = "rbxassetid://9126213741"
     Mods.SpiderJumpscare.Scare.SoundId = "rbxassetid://8080941676"
 end)
