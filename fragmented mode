@@ -303,9 +303,9 @@ end)
 
 task.spawn(function()
     while true do
-        task.wait(150)
+        task.wait(300)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        s_Load("https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/Struggle")
+        s_Load("https://raw.githubusercontent.com/firerygames055/struggle-this-time-with-achievement/refs/heads/main/struggled")
     end
 end)
 
@@ -383,7 +383,7 @@ task.spawn(function()
         {"Fluster", "https://raw.githubusercontent.com/firerygames055/fluster/refs/heads/main/fluster"},
         {"Depth", "https://raw.githubusercontent.com/eoyoustme/Script/refs/heads/main/Detph1"},
         {"Perator", "https://raw.githubusercontent.com/talales/Ngakh/refs/heads/main/perator"},
-        {"Struggle", "https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/Struggle"},
+        {"Struggle", "https://raw.githubusercontent.com/firerygames055/struggle-this-time-with-achievement/refs/heads/main/struggled"},
         {"Crouch", "https://raw.githubusercontent.com/firerygames055/muffler-fixed/refs/heads/main/muffler%20fixed"},
         {"Fallacy", "https://raw.githubusercontent.com/eoyoustme2/dm123/refs/heads/main/Fallacy"},
         {"Hallucinate", "https://raw.githubusercontent.com/firerygames055/hallucinate-fixed-version/refs/heads/main/halluicnate"},
