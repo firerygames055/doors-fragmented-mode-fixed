@@ -98,7 +98,7 @@ task.spawn(function()
         lbl.TextWrapped = true
         lbl.TextXAlignment = Enum.TextXAlignment.Center
         lbl.TextYAlignment = Enum.TextYAlignment.Center
-        lbl.Text = "Welcome to doors fragmented mode! hope you have fun playing it! please don't share this script without permission. credits to the Jabiss, Noah, Nhankg and other people. l also fixed alot of problems that were in this script"
+        lbl.Text = "Welcome to doors fragmented mode! hope you have fun playing it! please don't share this script without permission. credits to the Jabiss, Noah, Junbbinopro, Nhankg and other people. l also fixed alot of problems that were in this script"
         lbl.Parent = frm
 
         local cls = Instance.new("TextButton")
@@ -518,3 +518,6 @@ task.spawn(function()
         end
     end)
 end)
+
+-- candle
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Junbbinopro/Guiding-light-candle/refs/heads/main/Candle"))()
