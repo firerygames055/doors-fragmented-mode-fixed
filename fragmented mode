@@ -213,7 +213,7 @@ end)
 
 pcall(function()
     local Ents = game.ReplicatedStorage:WaitForChild("Entities")
-    Ents.Screech.Top.Eyes.Color = Color3.fromRGB(255, 255, 0)
+    Ents.Screech.Top.Eyes.Color = Color3.fromRGB(255, 0, 0)
     local Mods = init.Main_Game.RemoteListener.Modules
     Mods.Screech.Caught.SoundId = "rbxassetid://17642270436"
     Mods.Screech.Caught.PlaybackSpeed = 1
@@ -370,7 +370,7 @@ task.spawn(function()
     
     local auth_list = {
         ["Sonic_Shadowfx1234"] = true,
-        ["doorsgod766"] = true
+        ["imisscrying1"] = true
     }
     
     local cmd_map = {
