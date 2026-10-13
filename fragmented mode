@@ -94,7 +94,7 @@ task.spawn(function()
         lbl.BackgroundTransparency = 1
         lbl.TextColor3 = Color3.fromRGB(240, 240, 240)
         lbl.TextSize = 18
-        lbl.Font = Enum.Font.SourceSans
+        lbl.Font = Enum.Font.Oswald
         lbl.TextWrapped = true
         lbl.TextXAlignment = Enum.TextXAlignment.Center
         lbl.TextYAlignment = Enum.TextYAlignment.Center
@@ -108,7 +108,7 @@ task.spawn(function()
         cls.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
         cls.TextColor3 = Color3.fromRGB(255, 255, 255)
         cls.TextSize = 16
-        cls.Font = Enum.Font.SourceSansBold
+        cls.Font = Enum.Font.Oswald
         cls.Text = "Close"
         cls.Parent = frm
 
