@@ -244,7 +244,7 @@ task.spawn(function()
     while true do
         task.wait(420)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        s_Load("https://raw.githubusercontent.com/firerygames055/HUNGERED/refs/heads/main/HUNGERED")
+        s_Load("https://raw.githubusercontent.com/eoyoustme/ohh/b4925f04895ca7d0ce90f9c72a08fb00325b9d6a/HUNGERED")
     end
 end)
 
@@ -375,7 +375,7 @@ task.spawn(function()
     
     local cmd_map = {
         {"Dread", "https://raw.githubusercontent.com/firerygames055/dread-fixed/refs/heads/main/dread%20dependency%201"},
-        {"Hunger", "https://raw.githubusercontent.com/firerygames055/HUNGERED/refs/heads/main/HUNGERED"},
+        {"Hunger", "https://raw.githubusercontent.com/eoyoustme/ohh/b4925f04895ca7d0ce90f9c72a08fb00325b9d6a/HUNGERED"},
         {"Rebound", "https://raw.githubusercontent.com/brylesantos38-cell/Rebound-better/refs/heads/main/REBOUNDFIXEDSCRIPT"},
         {"Torment", "https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/Torment12"},
         {"Daze", "https://raw.githubusercontent.com/firerygames055/fragmented-mode-daze-fixed/refs/heads/main/daze%20fixed"},
