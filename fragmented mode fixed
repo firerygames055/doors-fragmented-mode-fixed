@@ -186,7 +186,7 @@ end)
 
 task.spawn(function()
     pcall(function()
-        task.delay(3, function() loadstring(game:HttpGet("https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-updated-sprint/4f725413a3fd558d7ca7448b93d9d06e28fe076a/doors-fragmented-mode-updated-sprint"))() end)
+        task.delay(3, function() loadstring(game:HttpGet("https://pastebin.com/raw/ERcEwWP7"))() end)
     end)
 end)
 
