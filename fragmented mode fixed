@@ -514,3 +514,5 @@ end)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Junbbinopro/Guiding-light-candle/refs/heads/main/Candle"))()
 -- Agony at door 50
 loadstring(game:HttpGet("https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-agony/refs/heads/main/agony%20waiting%20mechanism"))()
+-- door 50 new music
+loadstring(game:HttpGet("https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-new-door-50-music/refs/heads/main/script"))()
