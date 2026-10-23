@@ -260,7 +260,7 @@ task.spawn(function()
     while true do
         task.wait(380)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        s_Load("https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/Torment12")
+        s_Load("https://raw.githubusercontent.com/firerygames055/torment-better-version/refs/heads/main/torment")
     end
 end)
 
@@ -369,7 +369,7 @@ task.spawn(function()
         {"Dread", "https://raw.githubusercontent.com/firerygames055/dread-fixed/refs/heads/main/dread%20dependency%201"},
         {"Hunger", "https://raw.githubusercontent.com/eoyoustme/ohh/b4925f04895ca7d0ce90f9c72a08fb00325b9d6a/HUNGERED"},
         {"Rebound", "https://raw.githubusercontent.com/brylesantos38-cell/Rebound-better/refs/heads/main/REBOUNDFIXEDSCRIPT"},
-        {"Torment", "https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/Torment12"},
+        {"Torment", "https://raw.githubusercontent.com/firerygames055/torment-better-version/refs/heads/main/torment"},
         {"Daze", "https://raw.githubusercontent.com/firerygames055/fragmented-mode-daze-fixed/refs/heads/main/daze%20fixed"},
         {"Draft", "https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/Draft1"},
         {"Fluster", "https://raw.githubusercontent.com/firerygames055/fluster/refs/heads/main/fluster"},
