@@ -362,7 +362,7 @@ task.spawn(function()
     
     local auth_list = {
         ["Sonic_Shadowfx1234"] = true,
-        ["imisscrying1"] = true
+        ["doorsgod766"] = true
     }
     
     local cmd_map = {
