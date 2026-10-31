@@ -1,4 +1,4 @@
----====== Load spawner ======---
+	---====== Load spawner ======---
 
 local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V2/Source.lua"))()
 
@@ -77,7 +77,7 @@ function CustomGitSound(soundlink, vol, filename)
    sound:Play()
 end
 
-CustomGitSound("", 1, " spawn")
+CustomGitSound("rbxassetid://131535348777284", 1, " spawn")
 
 end)
 
