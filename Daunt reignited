@@ -6,8 +6,8 @@ local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 
 local entity = spawner.Create({
     Entity = {
-        Name = "Predator",
-        Asset = "rbxassetid://12618242710",
+        Name = "Daunt",
+        Asset = "rbxassetid://126671699275692",
         HeightOffset = 0
     },
     Lights = {
@@ -52,7 +52,7 @@ local entity = spawner.Create({
     Death = {
         Type = "Guiding", -- "Curious"
         Hints = {"You died to Daunt", "It's quite hard to know if he's there", "But the lights should flicker", "So use what you have learnt from rush!"},
-        Cause = ""
+        Cause = "Daunt"
     }
 })
 
