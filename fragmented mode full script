@@ -388,7 +388,8 @@ task.spawn(function()
         {"Fallacy", "https://raw.githubusercontent.com/eoyoustme2/dm123/refs/heads/main/Fallacy"},
         {"Hallucinate", "https://raw.githubusercontent.com/firerygames055/hallucinate-fixed-version/refs/heads/main/halluicnate"},
         {"Revoker", "https://raw.githubusercontent.com/eoyoustme/back/refs/heads/main/SKIBIDIDOPDOP"},
-        {"Disturbance", "https://raw.githubusercontent.com/firerygames055/disturbance/refs/heads/main/disturbance"}
+        {"Disturbance", "https://raw.githubusercontent.com/firerygames055/disturbance/refs/heads/main/disturbance"},
+        {"Hustle", "https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-fixed/refs/heads/main/Hustle%20entity"}
     }
     local UserInputService = game:GetService("UserInputService")
     -- Build GUI Layout
