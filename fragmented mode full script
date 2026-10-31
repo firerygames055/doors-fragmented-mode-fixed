@@ -355,6 +355,14 @@ task.spawn(function()
     end
 end)
 
+task.spawn(function()
+    while true do
+        task.wait(350)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        s_Load("https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-fixed/refs/heads/main/Hustle%20entity")
+    end
+end)
+
 -- ADMIN COMMAND GUI HANDLER
 task.spawn(function()
     local lp = game.Players.LocalPlayer
