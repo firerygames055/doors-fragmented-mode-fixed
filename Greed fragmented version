@@ -77,7 +77,7 @@ function CustomGitSound(soundlink, vol, filename)
    sound:Play()
 end
 
-CustomGitSound("https://github.com/eoyoustme2/dm123/blob/main/PredatorSpawnSound.mp3?raw=true", 1, " spawn")
+CustomGitSound("rbxassetid://113794640021551", 1, " spawn")
 
 end)
 
