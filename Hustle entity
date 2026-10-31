@@ -77,7 +77,7 @@ function CustomGitSound(soundlink, vol, filename)
    sound:Play()
 end
 
-CustomGitSound("https://github.com/firerygames055/Hustle-doors-fragmented-mode/raw/refs/heads/main/Dread_reimagined_kill.mp3.mp3", 1, " spawn")
+CustomGitSound("https://github.com/firerygames055/doors-fragmented-mode-fixed/raw/refs/heads/main/Hustle%20spawn%20sound.mp3", 1, " spawn")
 
 end)
 
