@@ -186,7 +186,7 @@ end)
 
 task.spawn(function()
     pcall(function()
-        task.delay(3, function() loadstring(game:HttpGet("https://raw.githubusercontent.com/thelostw3r/ScriptsForMyModes/refs/heads/main/Hardcore%20Sprint%20System%20(PC%20and%20Mobile%20Adaptation).lua.txt"))() end)
+        task.delay(3, function() loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/stamina"))() end)
     end)
 end)
 
