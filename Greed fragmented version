@@ -27,7 +27,7 @@ local entity = spawner.Create({
         Values = {1.5, 20, 0.1, 1} -- Magnitude, Roughness, FadeIn, FadeOut
     },
     Movement = {
-        Speed = 90,
+        Speed = 125,
         Delay = 4,
         Reversed = true
     },
@@ -50,8 +50,8 @@ local entity = spawner.Create({
         Break = true
     },
     Death = {
-        Type = "Curious"
-        Hints = {"Oh you already found this place", "Anyway lets see who you died to", "This one wants the whole room", "So maybe you could call it greed"},
+        Type = "Guiding", -- "Curious"
+        Hints = {"You died to Greed", "It rebounds 2 times", "Use what you have learnt from ambush!", "Good luck"},
         Cause = "Greed"
     }
 })
