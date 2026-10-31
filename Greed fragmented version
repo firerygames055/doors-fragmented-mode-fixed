@@ -6,7 +6,7 @@ local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 
 local entity = spawner.Create({
     Entity = {
-        Name = "Predator",
+        Name = "Greed",
         Asset = "rbxassetid://116484413328086",
         HeightOffset = 0
     },
@@ -32,7 +32,7 @@ local entity = spawner.Create({
         Reversed = true
     },
     Rebounding = {
-        Enabled = false,
+        Enabled = true,
         Type = "Ambush", -- "Blitz"
         Min = 4,
         Max = 4,
@@ -51,8 +51,8 @@ local entity = spawner.Create({
     },
     Death = {
         Type = "Guiding", -- "Curious"
-        Hints = {"You die to perator", "When it appears there will be a rather small sound.", "he will spawn in front", "good luck"},
-        Cause = ""
+        Hints = {"You died to Greed", "When it appears it will rebound 2 times", "Use what you have learnt from Ambush!", "good luck"},
+        Cause = "Greed"
     }
 })
 
