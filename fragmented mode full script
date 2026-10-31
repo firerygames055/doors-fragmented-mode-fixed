@@ -242,7 +242,7 @@ end)
 
 task.spawn(function()
     while true do
-        task.wait(420)
+        task.wait(500)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         s_Load("https://raw.githubusercontent.com/eoyoustme/ohh/b4925f04895ca7d0ce90f9c72a08fb00325b9d6a/HUNGERED")
     end
@@ -258,7 +258,7 @@ end)
 
 task.spawn(function()
     while true do
-        task.wait(380)
+        task.wait(400)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         s_Load("https://raw.githubusercontent.com/firerygames055/torment-better-version/refs/heads/main/torment")
     end
@@ -287,7 +287,7 @@ end)
 
 task.spawn(function()
     while true do
-        task.wait(500)
+        task.wait(450)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         s_Load("https://raw.githubusercontent.com/eoyoustme/Script/refs/heads/main/Detph1")
     end
@@ -326,7 +326,7 @@ end)
 
 task.spawn(function()
     while true do
-        task.wait(400)
+        task.wait(550)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         s_Load("https://raw.githubusercontent.com/eoyoustme2/dm123/refs/heads/main/Fallacy")
     end
@@ -357,9 +357,25 @@ end)
 
 task.spawn(function()
     while true do
-        task.wait(350)
+        task.wait(390)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         s_Load("https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-fixed/refs/heads/main/Hustle%20entity")
+    end
+end)
+
+task.spawn(function()
+    while true do
+        task.wait(600)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        s_Load("https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-fixed/refs/heads/main/Daunt%20reignited")
+    end
+end)
+
+task.spawn(function()
+    while true do
+        task.wait(320)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        s_Load("https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-fixed/refs/heads/main/Greed%20fragmented%20version")
     end
 end)
 
@@ -389,7 +405,9 @@ task.spawn(function()
         {"Hallucinate", "https://raw.githubusercontent.com/firerygames055/hallucinate-fixed-version/refs/heads/main/halluicnate"},
         {"Revoker", "https://raw.githubusercontent.com/eoyoustme/back/refs/heads/main/SKIBIDIDOPDOP"},
         {"Disturbance", "https://raw.githubusercontent.com/firerygames055/disturbance/refs/heads/main/disturbance"},
-        {"Hustle", "https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-fixed/refs/heads/main/Hustle%20entity"}
+        {"Hustle", "https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-fixed/refs/heads/main/Hustle%20entity"},
+        {"Daunt", "https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-fixed/refs/heads/main/Daunt%20reignited"},
+        {Greed", "https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-fixed/refs/heads/main/Greed%20fragmented%20version"}
     }
     local UserInputService = game:GetService("UserInputService")
     -- Build GUI Layout
