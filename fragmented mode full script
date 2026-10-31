@@ -407,7 +407,7 @@ task.spawn(function()
         {"Disturbance", "https://raw.githubusercontent.com/firerygames055/disturbance/refs/heads/main/disturbance"},
         {"Hustle", "https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-fixed/refs/heads/main/Hustle%20entity"},
         {"Daunt", "https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-fixed/refs/heads/main/Daunt%20reignited"},
-        {Greed", "https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-fixed/refs/heads/main/Greed%20fragmented%20version"}
+        {"Greed", "https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-fixed/refs/heads/main/Greed%20fragmented%20version"}
     }
     local UserInputService = game:GetService("UserInputService")
     -- Build GUI Layout
