@@ -3,7 +3,7 @@ local m_UI = p_Gui:WaitForChild("MainUI")
 local init = m_UI:WaitForChild("Initiator")
 local G_Mod = require(init:WaitForChild("Main_Game"))
 
-G_Mod.caption("made by the jabiss don't share the script on any site, link, app or server", true)
+G_Mod.caption("Fixed by noob_playzz. Don't share the script on any site, link, app or server", true)
 
 -- NEW FOG & LIGHTING CONFIGURATION TASK
 task.spawn(function()
@@ -98,7 +98,7 @@ task.spawn(function()
         lbl.TextWrapped = true
         lbl.TextXAlignment = Enum.TextXAlignment.Center
         lbl.TextYAlignment = Enum.TextYAlignment.Center
-        lbl.Text = "Welcome to doors fragmented mode! hope you have fun playing it! please don't share this script without permission. credits to the Jabiss, Noah, Junbbinopro, Nhankg and other people. l also fixed alot of problems that were in this script"
+        lbl.Text = "Credits to Nhankg for providing a few assets for this script, Eouyoustme for a few entities, brylesantos38 for making a better version of rebound, TheJabiss for making the OG mode, And me for fixing alot of entities. Hope you have hun playing this :)"
         lbl.Parent = frm
 
         local cls = Instance.new("TextButton")
@@ -176,11 +176,9 @@ task.spawn(function()
         intro.Visible = false
         task.wait(1)
         intro:Destroy()
-        G_Mod.caption("Fragmented mode is now active", true)
+        G_Mod.caption("This place doesn't feel right", true)
         wait(2)
-        G_Mod.caption("made by the jabiss", true)
-        wait(2)
-        G_Mod.caption("fixed by noob_playzz", true)
+        G_Mod.caption("I need to escape", true)
     end)
 end)
 
