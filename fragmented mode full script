@@ -98,7 +98,7 @@ task.spawn(function()
         lbl.TextWrapped = true
         lbl.TextXAlignment = Enum.TextXAlignment.Center
         lbl.TextYAlignment = Enum.TextYAlignment.Center
-        lbl.Text = "Credits to Nhankg for providing a few assets for this script, Eouyoustme for a few entities, brylesantos38 for making a better version of rebound, TheJabiss for making the OG mode, And me for fixing alot of entities. Hope you have hun playing this :)"
+        lbl.Text = "Credits to Nhankg for providing a few assets and the new guiding light music, Eouyoustme for a few entities, brylesantos38 for making a better version of rebound, TheJabiss for making the OG mode, And me for fixing alot of entities and adding achievements. Hope you have hun playing this :)"
         lbl.Parent = frm
 
         local cls = Instance.new("TextButton")
@@ -543,3 +543,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Junbbinopro/Guiding-l
 loadstring(game:HttpGet("https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-agony/refs/heads/main/agony%20waiting%20mechanism"))()
 -- door 50 new music
 loadstring(game:HttpGet("https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-new-door-50-music/refs/heads/main/script"))()
+-- new guiding light music credits to Nhankg
+loadstring(game:HttpGet("https://raw.githubusercontent.com/talales/Nhankg8262/refs/heads/main/test.pcm"))()
