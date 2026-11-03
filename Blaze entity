@@ -168,7 +168,7 @@ local function playJumpscare()
 	face.AnchorPoint = Vector2.new(0.5, 0.5)
 	face.Position = UDim2.new(0.5, 0, 0.589, 0)
 	face.Size = UDim2.new(0, 1, 0, 1)
-	face.Image = "rbxassetid://14101161259"
+	face.Image = "rbxassetid://71921631268626"
 	face.BackgroundTransparency = 1
 
 	local text = Instance.new("ImageLabel")
