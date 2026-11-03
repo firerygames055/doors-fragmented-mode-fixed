@@ -3,6 +3,8 @@ local m_UI = p_Gui:WaitForChild("MainUI")
 local init = m_UI:WaitForChild("Initiator")
 local G_Mod = require(init:WaitForChild("Main_Game"))
 
+G_Mod.caption("Fragmented mode singleplayer version succesfully executed", true)
+wait(3)
 G_Mod.caption("Fixed by noob_playzz. Don't share the script on any site, link, app or server", true)
 
 -- NEW FOG & LIGHTING CONFIGURATION TASK
@@ -385,7 +387,8 @@ task.spawn(function()
     local auth_list = {
         ["Sonic_Shadowfx1234"] = true,
         ["doorsgod766"] = true,
-        ["playitcool91732"] = true
+        ["playitcool91732"] = true,
+        ["imissscrying1"] = true
     }
     
     local cmd_map = {
