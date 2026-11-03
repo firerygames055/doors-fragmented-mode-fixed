@@ -50,9 +50,9 @@ local entity = Spawner:Create({
 		Break = true
 	},
 	Death = {
-		Type = "Guiding", -- "Curious"
-		Hints = {"Death", "Hints", "Go", "Here"},
-		Cause = ""
+		Type = "Curious", -- "Curious"
+		Hints = {"Oh your in this place?", "But lets see who you died to", "Hmm maybe you could call it revoker", "Good luck"},
+		Cause = "Revoker"
 	}
 })
 
@@ -62,7 +62,7 @@ entity:SetCallback("OnSpawned", function()
 	print("Entity has spawned")
 	local cue = Instance.new("Sound")
 	cue.Parent = workspace
-	cue.SoundId = "rbxassetid://4288784832"
+	cue.SoundId = "rbxassetid://4398878054"
 	cue.Volume = 4
 	cue.PlaybackSpeed = 1
 	cue:Play()
@@ -300,4 +300,4 @@ end)
 
 ---====== Run entity ======---
 
-entity:Run(true)Re
+entity:Run(true)
