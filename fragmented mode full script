@@ -341,7 +341,7 @@ end)
 task.spawn(function()
     while true do
         task.wait(280)
-        s_Load("https://raw.githubusercontent.com/eoyoustme/back/refs/heads/main/SKIBIDIDOPDOP")
+        s_Load("https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/revoker")
     end
 end)
 
