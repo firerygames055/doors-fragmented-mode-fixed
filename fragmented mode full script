@@ -311,7 +311,7 @@ end)
 
 task.spawn(function()
     while true do
-        task.wait(310)
+        task.wait(30)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         s_Load("https://raw.githubusercontent.com/firerygames055/dread-fixed/refs/heads/main/dread%20dependency%201")
     end
@@ -343,7 +343,7 @@ end)
 task.spawn(function()
     while true do
         task.wait(280)
-        s_Load("https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/revoker")
+        s_Load("https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-fixed/refs/heads/main/Revoker")
     end
 end)
 
@@ -406,7 +406,7 @@ local auth_list = {
         {"Crouch", "https://raw.githubusercontent.com/firerygames055/muffler-fixed/refs/heads/main/muffler%20fixed"},
         {"Fallacy", "https://raw.githubusercontent.com/eoyoustme2/dm123/refs/heads/main/Fallacy"},
         {"Hallucinate", "https://raw.githubusercontent.com/firerygames055/hallucinate-fixed-version/refs/heads/main/halluicnate"},
-        {"Revoker", "https://raw.githubusercontent.com/eoyoustme/back/refs/heads/main/SKIBIDIDOPDOP"},
+        {"Revoker", "https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-fixed/refs/heads/main/Revoker"},
         {"Disturbance", "https://raw.githubusercontent.com/firerygames055/disturbance/refs/heads/main/disturbance"},
         {"Hustle", "https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-fixed/refs/heads/main/Hustle%20entity"},
         {"Daunt", "https://raw.githubusercontent.com/firerygames055/doors-fragmented-mode-fixed/refs/heads/main/Daunt%20reignited"},
