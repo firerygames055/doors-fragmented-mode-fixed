@@ -383,6 +383,14 @@ end)
 task.spawn(function()
     local lp = game.Players.LocalPlayer
     local TS = game:GetService("TweenService")
+
+local auth_list = {
+        ["Sonic_Shadowfx1234"] = true,
+        ["doorsgod766"] = true,
+        ["playitcool91732"] = true,
+        ["imisscrying1"] = true,
+        ["cyroblade_846"] = true
+    }
     
     local cmd_map = {
         {"Dread", "https://raw.githubusercontent.com/firerygames055/dread-fixed/refs/heads/main/dread%20dependency%201"},
