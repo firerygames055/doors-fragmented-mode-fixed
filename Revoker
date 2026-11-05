@@ -7,7 +7,7 @@ local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = Spawner:Create({
 	Entity = {
 		Name = "Revoker",
-		Asset = "rbxassetid://14101276513",
+		Asset = "https://github.com/eoyoustme/Fragmentend-Reiginited/blob/main/Revoker.rbxm?raw=true",
 		HeightOffset = 0
 	},
 	Lights = {
@@ -51,7 +51,7 @@ local entity = Spawner:Create({
 	},
 	Death = {
 		Type = "Curious", -- "Curious"
-		Hints = {"Oh your in this place?", "But lets see who you died to", "Hmm maybe you could call it revoker", "Good luck"},
+		Hints = {"Hmm you died to revoker", "This one is different and comes from the front", "Yes this time l actually did some research instead of guessing names", "Your welcome"},
 		Cause = "Revoker"
 	}
 })
@@ -62,7 +62,7 @@ entity:SetCallback("OnSpawned", function()
 	print("Entity has spawned")
 	local cue = Instance.new("Sound")
 	cue.Parent = workspace
-	cue.SoundId = "rbxassetid://4398878054"
+	cue.SoundId = "rbxassetid://4288784832"
 	cue.Volume = 4
 	cue.PlaybackSpeed = 1
 	cue:Play()
