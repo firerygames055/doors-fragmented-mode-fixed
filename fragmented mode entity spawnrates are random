@@ -9,9 +9,6 @@ G_Mod.caption("Fixed by noob_playzz. Don't share the script on any site, link, a
 wait(3)
 G_Mod.caption("This version implementes random entity spawn rates", true)
 wiat(3)
-G_Mod.caption("Still in testing so expect some entities to never spawn or glitch", true)
-wait(3)
-G_Mod.caption("Have fun and also read 'info' please", true)
 
 -- NEW FOG & LIGHTING CONFIGURATION TASK
 task.spawn(function()
