@@ -27,8 +27,8 @@ local entity = Spawner:Create({
 		Values = {1.5, 20, 0.1, 1} -- Magnitude, Roughness, FadeIn, FadeOut
 	},
 	Movement = {
-		Speed = 1000000010000010000000100000,
-		Delay = 4,
+		Speed = 300,
+		Delay = 2,
 		Reversed = false
 	},
 	Rebounding = {
@@ -41,7 +41,7 @@ local entity = Spawner:Create({
 	Damage = {
 		Enabled = true,
 		Range = 10100000000,
-		Amount = 40
+		Amount = 125
 	},
 	Crucifixion = {
 		Enabled = true,
@@ -50,9 +50,9 @@ local entity = Spawner:Create({
 		Break = true
 	},
 	Death = {
-		Type = "Guiding", -- "Curious"
-		Hints = {"Death", "Hints", "Go", "Here"},
-		Cause = ""
+		Type = "Curious", -- "Curious"
+		Hints = {"Lets se who you died to", "This one always rages fast", "So maybe you could call it hustle", "And i'm suprised you found your way here"},
+		Cause = "Hustle"
 	}
 })
 
