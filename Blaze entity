@@ -218,7 +218,7 @@ local function playJumpscare()
 	task.spawn(function()
 		while not stopEffects do
 			face.Rotation = 10
-			face.Image = "rbxassetid://14101161259"
+			face.Image = "rbxassetid://71921631268626"
 			task.wait()
 			face.Rotation = -10
 			task.wait()
